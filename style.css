@@ -9,6 +9,15 @@ h1 {
      color: #EDF1D6;
 }
 
+p {
+     color: #EDF1D6;
+}
+
+.nav h1 a {
+     text-decoration: none;
+     color: #EDF1D6;
+}
+
 h2 {
      color: #EDF1D6;
 }
@@ -38,6 +47,7 @@ body {
 .nav li a {
      text-decoration: none;
      color: #EDF1D6;
+     font-size: 20px;
 }
 
 .form {
@@ -78,10 +88,11 @@ body {
      padding: 100px;
      text-align: unset;
      margin: 20px;
+     
 
      border-radius: 20px;
 
-     background: #85967c;
+     box-shadow: rgba(8, 27, 75, 0.35) 0px 6px 20px -6px;
 }
 
 .pricing h2 {
@@ -97,8 +108,8 @@ body {
 
      margin-top: 20vh;
 
+     font-weight:200;
      color: #EDF1D6;
-
 }
 
 .testi div {
@@ -109,11 +120,7 @@ body {
      border-radius: 20px;
      
 
-     transition: s;
-
-     box-shadow: black;
-
-     background: #85967c;
+     box-shadow: rgba(8, 27, 75, 0.35) 0px 6px 20px -6px;
 }
 
 .testi h2 {
@@ -144,20 +151,30 @@ body {
 .test input {
      border-style: none;
      border-radius: 5px;
-     height: 30px;
+     height: 40px;
      width: 300px;
+     box-shadow: rgba(8, 27, 75, 0.35) 0px 6px 20px -6px;
 }
 
+
 .test h2 {
-     margin: 20px;
+     margin-bottom: 20px;
 }
 
 .submit-btn {
      border-style: none;
 
-     height: 30px;
-     width: 50px;
+     height: 40px;
+     width: 90px;
      border-radius: 5px;
+     text-align: center;
+
+     box-shadow: rgba(8, 27, 75, 0.35) 0px 6px 20px -6px;
+
+     background-color: #EDF1D6;
+     cursor: pointer;
+
+     margin-left: 20px;
 }
 
 footer {
@@ -165,4 +182,100 @@ footer {
 
      height: 10vh;
      margin-top: 50px;
+}
+
+
+.login-container {
+     display: flex;
+     flex-direction: column;
+
+     align-items: center;
+}
+
+
+
+.login-container {
+     display: inline-flex;
+     justify-content: space-between;
+}
+
+.login-container ul li a {
+     text-decoration: none;
+     color: #000000;
+}
+
+.login-container ul {
+     margin: 50px;
+     padding: 50px;
+}
+
+.login-container ul li {
+     box-shadow: rgba(8, 27, 75, 0.35) 0px 6px 20px -6px;
+     margin: 16px;
+     display: inline-flex;
+     align-items: center;
+     padding: 15px;
+     background-color: #ffff;
+     border-radius: 10px;
+     cursor: pointer;
+}
+
+.login-container ul li a {
+     display: inline-flex;
+     align-items: center;
+}
+
+
+.login-container ul li img{
+     max-width: 20px;
+}
+
+.login-container ul li span {
+     display: inline-flex;
+     align-items: center;
+     margin-left: 10px;
+}
+
+
+.hover:hover {
+     background-color: rgb(251, 251, 251);
+}
+
+.hover:active {
+     background-color: white;
+     box-shadow: none;
+
+}
+
+.box {
+
+     background-color: #609966;
+
+     border-top-right-radius: 50px;
+     border-top-left-radius: 50px;
+}
+
+.box-2{
+
+     background-color: hsl(126, 23%, 49%);
+
+     border-bottom-right-radius: 50px;
+     border-bottom-left-radius: 50px;
+
+}
+
+.try-form {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+
+
+     padding: 100px;
+
+     background-color: #609966;
+
+     border-top-right-radius: 30px;
+     border-top-left-radius: 30px;
+     box-shadow: rgba(8, 27, 75, 0.35) 0px 6px 20px -6px;
+     padding-bottom: 200px;
 }
