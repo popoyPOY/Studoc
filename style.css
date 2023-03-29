@@ -27,6 +27,7 @@ body {
 }
 
 .nav {
+     background-color: #609966;
      display: flex;
      width: 100%;
      align-items: center;
@@ -142,6 +143,8 @@ body {
      flex-direction: column;
 
      align-items: center;
+
+     padding-bottom: 10vh;
 }
 
 .test h1 {
@@ -178,10 +181,11 @@ body {
 }
 
 footer {
-     background: #95b783;
+     background: #609966;
 
      height: 10vh;
      margin-top: 50px;
+     padding: 100px;
 }
 
 
@@ -279,3 +283,35 @@ footer {
      box-shadow: rgba(8, 27, 75, 0.35) 0px 6px 20px -6px;
      padding-bottom: 200px;
 }
+
+.contact-container {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     border-style: solid;
+     padding: 100px;
+     padding-bottom: 300px;
+}
+
+.about-containerx {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+     padding: 100px;
+ }
+
+.about-container p {
+     justify-items: center;
+     text-align: justify;
+     font-size: large;
+}
+ 
+ .about-containerx img{
+     max-width: 250px;
+     border-radius: 150px;
+     border-style: groove;
+     border-color: #EDF1D6;
+     margin: 20px;
+ }
