@@ -88,7 +88,6 @@ body {
 .pricing {
      display: flex;
      justify-content: space-around;
-     margin: 10px;
 
      color: #EDF1D6;
 
@@ -114,9 +113,7 @@ body {
 .testi {
      display: flex;
      justify-content: space-around;
-     margin: 10px;
 
-     margin-top: 20vh;
 
      font-weight:200;
      color: #EDF1D6;
@@ -264,15 +261,12 @@ footer {
 
      background-color: #609966;
 
-     border-top-right-radius: 50px;
-     border-top-left-radius: 50px;
 }
 
 .box-2{
 
      background-color: hsl(126, 23%, 49%);
 
-     border-bottom-right-radius: 50px;
      border-bottom-left-radius: 50px;
 
 }
@@ -380,4 +374,56 @@ footer {
           margin-top: 10px;
           margin-left: 100px;
      }
+}
+
+
+.creds-ul li {
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 5px;
+}
+
+.signup-li:hover {
+     transition: 0.3s;
+     background-color: #4f7e54;
+}
+
+.login-li {
+     background-color: #9DC08B;
+}
+
+
+.login-li:hover {
+     transition: 0.3s;
+     background-color: #44ad4f;
+}
+
+
+
+section {
+     position: relative;
+}
+
+
+.spacer {
+     aspect-ratio: 960/300;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+
+}
+
+.layer1 {
+     background-image: url("assets/bottom.svg");
+}
+
+
+.layer2 {
+     background-image: url("assets/top.svg");
+}
+
+.layer3 {
+     background-image: url("assets/footer.svg");
 }
