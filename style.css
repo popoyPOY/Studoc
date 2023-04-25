@@ -261,12 +261,15 @@ footer {
 
      background-color: #609966;
 
+     border-top-right-radius: 50px;
+     border-top-left-radius: 50px;
 }
 
 .box-2{
 
      background-color: hsl(126, 23%, 49%);
 
+     border-bottom-right-radius: 50px;
      border-bottom-left-radius: 50px;
 
 }
