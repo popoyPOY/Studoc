@@ -44,7 +44,7 @@
 
           login.addEventListener("click", () => {
                if (username.value == localStorage.getItem("username") && password.value == localStorage.getItem("password")) {
-                    alert("OK")
+                    location.href = "/dashboard.html"
                } else {
                          info.style = "color: red;"
                          info.innerHTML = "Username Or Password is invalid"
@@ -55,7 +55,7 @@
                if (event.key == "Enter") {
 
                     if (username.value == localStorage.getItem("username") && password.value == localStorage.getItem("password")) {
-                    alert("OK")
+                         location.href = "/dashboard.html"
                     } else {
                          info.style = "color: red;"
                          info.innerHTML = "Username Or Password is invalid"
@@ -63,7 +63,6 @@
 
                }
           })
-
         </script>
 </body>
 </html>

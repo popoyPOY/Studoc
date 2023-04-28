@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,800&display=swap" rel="stylesheet">
+     <title>Document Unlocker</title>
+</head>
+<body>
+     <div class="nav">
+          <h1><a href="index.html">Document Unlocker</a></h1>
+
+          <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="contact.html">Contact</a></li>
+          </ul>
+     </div>
+     <div class="form">
+          <h1>Studocu/Scribd Unlocker</h1>
+
+          <div class="login-container">
+               <span style="display: block; align-items: center; justify-content: center; margin: 200px; text-align: justify; color: #EDF1D6; font-size: 20px; font-weight:100;">
+                    Studocu/Scribd Unlocker is an extremely convenient service that enables users to access a large variety of resources, including textbooks, documents, articles, and other educational materials. With Studocu/Scribd Unlocker, users can easily unlock documents and access all the educational materials within minutes. The service also provides a secure platform, where the documents and other information are safely stored and accessed without fear of any potential damage. Additionally, Studocu/Scribd Unlocker offers fast and easy document unlocking capabilities and is highly reliable. It allows users to access the materials quickly and efficiently, without any hassle or inconvenience. Therefore, it has become a go-to service for students and professionals looking for reliable, secure, and easy to use document unlocking services.
+               </span>
+          </div>
+
+     <script>
+          window.addEventListener("DOMContentLoaded", () => {
+               if (localStorage.getItem("username") == '') {
+                    location.href = "/login.html"
+               }
+          })
+     </script>
+</body>
+</html>
+
