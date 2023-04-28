@@ -426,3 +426,12 @@ section {
 .layer3 {
      background-image: url("assets/footer.svg");
 }
+
+
+.login-form {
+     display: flex;
+     justify-content: center;
+     border-radius: 5px;
+     border-style: solid;
+     flex-direction: row;
+}
