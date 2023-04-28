@@ -30,13 +30,17 @@
      </center>
      <div class="container-login">
           <form action="action_page.php">
-               <label for="username" style="color:#EDF1D6;">Username</label>
+               <label for="e-mail" style="color:#EDF1D6;">Email</label>
+               <input type="text" id="email" name="email" placeholder="E-mail Address">
+               <label for="username"style="color:#EDF1D6;">Username</label>
                <input type="text" id="username" name="username" placeholder="Username">
                <label for="password" style="color:#EDF1D6;">Password</label>  
                <input type="password" id="password" name="password" placeholder="Password">
           </form>
-          <button type="submit" class="login-btn">Login</button>
+          <button type="submit" class="login-btn" id="signup">Sign Up</button>
+          <p id="info"></p>
         </div>
 
+     <script src="sign.js"></script>
 </body>
 </html>
