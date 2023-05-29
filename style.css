@@ -440,7 +440,7 @@ section {
 
 
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=email] {
      width: 100%;
      padding: 12px 20px;
      margin: 8px 0;
@@ -478,4 +478,23 @@ input[type=text], input[type=password] {
 
 .login-btn:hover{
      background-color: #78af5d;
+}
+
+
+.avatar {
+     width: 500px;
+     height: 300px;
+}
+
+
+.x {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+
+.dashboard-container {
+     display:flex;
+     justify-content: flex-start;
 }
