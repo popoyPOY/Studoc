@@ -25,12 +25,23 @@
           </ul>
      </div>
      <div class="form">
-          <h1>Studocu/Scribd Unlocker</h1>
+          <h1 class="user">Hello</h1>
+          <div class="dashboard-container">
+          <div class="x">
+               <img alt="avatar" class="avatar">
 
-          <div class="login-container">
-               <span style="display: block; align-items: center; justify-content: center; margin: 200px; text-align: justify; color: #EDF1D6; font-size: 20px; font-weight:100;">
-                    Studocu/Scribd Unlocker is an extremely convenient service that enables users to access a large variety of resources, including textbooks, documents, articles, and other educational materials. With Studocu/Scribd Unlocker, users can easily unlock documents and access all the educational materials within minutes. The service also provides a secure platform, where the documents and other information are safely stored and accessed without fear of any potential damage. Additionally, Studocu/Scribd Unlocker offers fast and easy document unlocking capabilities and is highly reliable. It allows users to access the materials quickly and efficiently, without any hassle or inconvenience. Therefore, it has become a go-to service for students and professionals looking for reliable, secure, and easy to use document unlocking services.
-               </span>
+               <div>
+               <button class="login-btn" style="margin: 10px;">change</button>
+               </div>
+          </div>
+          <form action="">
+               <label for="username">Email</label>
+               <input type="email" name="email" id="email">
+               <label for="username">Username</label>
+               <input type="text" name="username" id="username">
+               <label for="password">password</label>
+               <input type="password" name="password" id="password">
+          </form>
           </div>
 
      <script>
@@ -38,19 +49,20 @@
 
           window.addEventListener("DOMContentLoaded", () => {
                if (sessionStorage.getItem("username") == '') {
-                    location.href = "/login.html"
+                    location.href = "login.html"
                }
           })
 
           logout.addEventListener("click", () => {
                sessionStorage.setItem("username", "")
                sessionStorage.setItem("password", "")
-               location.href = '/login.html'
+               location.href = 'login.html'
           })
 
           
 
      </script>
+     <script src="dashboard.js"></script>
 </body>
 </html>
 

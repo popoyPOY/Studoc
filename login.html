@@ -46,7 +46,7 @@
                if (username.value == localStorage.getItem("username") && password.value == localStorage.getItem("password")) {
                     sessionStorage.setItem("username", localStorage.getItem("username"))
                     sessionStorage.setItem("password", localStorage.getItem("password"))
-                    location.href = "/dashboard.html"
+                    location.href = "dashboard.html"
                } else {
                          info.style = "color: red;"
                          info.innerHTML = "Username Or Password is invalid"
@@ -59,7 +59,7 @@
                     if (username.value == localStorage.getItem("username") && password.value == localStorage.getItem("password")) {
                          sessionStorage.setItem("username", localStorage.getItem("username"))
                          sessionStorage.setItem("password", localStorage.getItem("password"))
-                         location.href = "/dashboard.html"
+                         location.href = "dashboard.html"
                     } else {
                          info.style = "color: red;"
                          info.innerHTML = "Username Or Password is invalid"
