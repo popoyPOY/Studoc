@@ -20,7 +20,7 @@ signup.addEventListener("click", () => {
           localStorage.setItem("password", password.value)
           info.style = "color: green;"
           info.innerHTML = "Register Success"
-          window.location.assign("/login.html")
+          window.location.assign("login.html")
      }
 })
 
